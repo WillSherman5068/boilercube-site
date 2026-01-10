@@ -94,9 +94,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mini" style={{ marginTop: 16 }}>
-          (Optional: add your placement/awards here once you want it on the home page.)
-        </div>
       </section>
 
       {/* ===== GET INVOLVED (kept, but not sponsor button) ===== */}
