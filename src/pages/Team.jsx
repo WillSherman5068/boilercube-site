@@ -36,7 +36,7 @@ export default function Team() {
         "Leads electronics, wiring, sensors, and power systems. Focuses on reliability, safety, and making the cube’s controls and instrumentation robust for demos and competition."
     },
     {
-      name: "Evan IDK",
+      name: "Evan Lynus",
       role: "Team Lead",
       group: "Chemical",
       bio:
