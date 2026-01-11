@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import "./App.css";
 import Updates from "./pages/Updates"; 
-import logo from "./assets/boilercube-logo.png";
+import logo from "./assets/boilercubewhitelogo.png";
 
 function Nav() {
   const linkClass = ({ isActive }) =>
