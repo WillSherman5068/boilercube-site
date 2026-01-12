@@ -11,7 +11,13 @@ export default function Home() {
           designed for affordability, safety, and deployability.
         </p>
 
-        {/* Image space (replace later with real images) */}
+        <HeroCarousel
+  images={[
+    "/hero/hero1.jpg",
+    "/hero/hero2.jpg",
+    "/hero/hero3.jpg",
+  ]}
+/>
         <div className="card" style={{ marginTop: 18, padding: 0, overflow: "hidden" }}>
           <div
             style={{
