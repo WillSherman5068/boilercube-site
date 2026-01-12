@@ -460,3 +460,57 @@ a:hover img {
 .btn.contact-btn:active {
   color: #000 !important;
 }
+
+.heroCarousel { margin: 18px 0 22px; }
+
+.heroFrame{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.06);
+}
+
+.heroImg{
+  display: block;
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.heroNav{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  background: rgba(255,255,255,0.85);
+  color: #111;
+}
+
+.heroPrev{ left: 12px; }
+.heroNext{ right: 12px; }
+
+.heroDots{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.heroDot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  background: rgba(255,255,255,0.35);
+}
+
+.heroDot.isActive{
+  background: rgba(255,255,255,0.9);
+}
