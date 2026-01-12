@@ -18,24 +18,6 @@ export default function Home() {
     "/hero/hero3.jpg",
   ]}
 />
-        <div className="card" style={{ marginTop: 18, padding: 0, overflow: "hidden" }}>
-          <div
-            style={{
-              width: "100%",
-              aspectRatio: "16 / 7",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              background: "rgba(255,255,255,0.06)",
-              borderRadius: 18,
-              color: "rgba(245,245,247,0.65)",
-              fontWeight: 800,
-              letterSpacing: "0.02em",
-            }}
-          >
-            Hero image / prototype photo / CAD render (placeholder)
-          </div>
-        </div>
       </section>
 
       {/* ===== WHAT WE'RE BUILDING + WHY IT MATTERS ===== */}
