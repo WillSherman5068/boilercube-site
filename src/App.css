@@ -418,11 +418,13 @@ a:hover img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px 22px;
-  border-radius: 28px;
 
-  background: #ffffff !important;              /* force white tile */
-  border: 2px solid rgba(0,0,0,0.12) !important; /* visible edge */
+  height: 200px;              /* 👈 SAME HEIGHT FOR ALL */
+  padding: 24px;
+
+  border-radius: 28px;
+  background: #ffffff;
+  border: 2px solid rgba(0,0,0,0.12);
   box-shadow: 0 10px 26px rgba(0,0,0,0.22);
 
   transition: transform 0.12s ease, box-shadow 0.18s ease;
@@ -459,4 +461,125 @@ a:hover img {
 
 .btn.contact-btn:active {
   color: #000 !important;
+}
+
+/* ===== HERO CAROUSEL (smaller + consistent) ===== */
+
+.heroCarousel {
+  width: 100%;
+  margin: 18px 0 22px;
+}
+
+/* Center the carousel and keep it narrower than the page */
+.heroFrame {
+  position: relative;
+  max-width: 1200px;     /* 👈 makes it much smaller */
+  margin: 0 auto;       /* centers it */
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.06);
+}
+
+/* Force EVERY image to be the same size */
+.heroImg {
+  display: block;
+  width: 100%;
+  height: 550px;        /* 👈 adjust smaller/larger here */
+  object-fit: cover;    /* crops to fit instead of stretching */
+}
+
+/* Navigation arrows */
+.heroNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  background: rgba(255,255,255,0.85);
+  color: #111;
+}
+
+.heroPrev { left: 10px; }
+.heroNext { right: 10px; }
+
+/* Dots */
+.heroDots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Hero carousel dots — BoilerCube gold */
+
+.heroDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  background: rgba(198,161,91,0.35);   /* muted gold */
+}
+
+.heroDot.isActive {
+  background: var(--gold);             /* solid gold */
+  box-shadow: 0 0 8px rgba(198,161,91,0.45);
+}
+
+/* ===== Purdue background section ===== */
+
+.purdue-section {
+  position: relative;
+  width: 100%;
+  margin: 32px 0;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.purdue-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("/purduearch.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.22;        /* 👈 keeps it subtle but full color */
+}
+
+.purdue-overlay {
+  position: relative;
+  padding: 95px 28px;
+  text-align: center;
+}
+
+.purdue-overlay h2 {
+  margin: 0 0 8px;
+}
+
+.purdue-overlay p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: rgba(245,245,247,0.82);
+}
+
+/* ===== Design page carousel sizing ===== */
+
+.design-carousel .heroCarousel {
+  max-height: 340px;            /* 👈 smaller than home */
+}
+
+.design-carousel img {
+  object-fit: contain !important; /* 👈 show full image */
+  background: rgba(255,255,255,0.04);
+}
+
+/* Full-bleed section that escapes the .page max-width */
+.fullbleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }

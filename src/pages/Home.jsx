@@ -1,3 +1,4 @@
+import HeroCarousel from "../components/HeroCarousel";
 export default function Home() {
   return (
     <div className="page">
@@ -10,25 +11,14 @@ export default function Home() {
           designed for affordability, safety, and deployability.
         </p>
 
-        {/* Image space (replace later with real images) */}
-        <div className="card" style={{ marginTop: 18, padding: 0, overflow: "hidden" }}>
-          <div
-            style={{
-              width: "100%",
-              aspectRatio: "16 / 7",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              background: "rgba(255,255,255,0.06)",
-              borderRadius: 18,
-              color: "rgba(245,245,247,0.65)",
-              fontWeight: 800,
-              letterSpacing: "0.02em",
-            }}
-          >
-            Hero image / prototype photo / CAD render (placeholder)
-          </div>
-        </div>
+        <HeroCarousel
+  images={[
+    "/hero/CompetitionTeams.jpeg",
+    "/hero/TeamWithCube.jpeg",
+    "/hero/AICHESign.jpeg",
+    "/hero/posterTeam.jpeg",
+  ]}
+/>
       </section>
 
       {/* ===== WHAT WE'RE BUILDING + WHY IT MATTERS ===== */}
@@ -59,6 +49,20 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
+  {/* ===== PURDUE CONTEXT SECTION ===== */}
+<section className="purdue-section">
+  <div className="purdue-bg" />
+  <div className="purdue-overlay">
+    <div className="kicker">Purdue University</div>
+    <h2>Built at Purdue</h2>
+    <p>
+      BoilerCube is a student-led engineering team based at Purdue University,
+      bringing together chemical, mechanical, electrical, and business students
+      to build real climate technology for national competition and real-world impact.
+    </p>
+  </div>
+</section>
 
       {/* ===== COMPETITION SECTION (NEW) ===== */}
       <section className="section big-section">
@@ -94,9 +98,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mini" style={{ marginTop: 16 }}>
-          (Optional: add your placement/awards here once you want it on the home page.)
-        </div>
       </section>
 
       {/* ===== GET INVOLVED (kept, but not sponsor button) ===== */}

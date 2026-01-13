@@ -1,20 +1,15 @@
-import aiche from "../assets/sponsors/aiche.png";
-import chemeCube from "../assets/sponsors/cheme-cube.png";
-import manufacturingUSA from "../assets/sponsors/manufacturing-usa.png";
-import kenexis from "../assets/sponsors/kenexis.png";
-import proflute from "../assets/sponsors/proflute.png";
-import exxonmobil from "../assets/sponsors/exxonmobil.png";
-import davidson from "../assets/sponsors/davidson-cheme.png";
-
 export default function Sponsors() {
   const sponsors = [
-    { name: "AIChE", img: aiche, url: "https://www.aiche.org/" },
-    { name: "Chem-E Cube Competition", img: chemeCube, url: "https://www.aiche.org/students/cheme-cube-competition" },
-    { name: "Manufacturing USA", img: manufacturingUSA, url: "https://www.manufacturingusa.com/" },
-    { name: "Kenexis", img: kenexis, url: "https://www.kenexis.com/" },
-    { name: "ProFlute", img: proflute, url: "https://www.proflute.com/" },
-    { name: "ExxonMobil", img: exxonmobil, url: "https://corporate.exxonmobil.com/" },
-    { name: "Davidson School of Chemical Engineering", img: davidson, url: "https://engineering.purdue.edu/ChE" },
+    {
+      name: "Davidson School of Chemical Engineering",
+      img: "/sponsors/davidson-cheme.png",
+      url: "https://engineering.purdue.edu/ChE",
+    },
+    {
+      name: "Lubrizol",
+      img: "/sponsors/lubrizol.png",
+      url: "https://www.lubrizol.com/",
+    },
   ];
 
   return (
@@ -23,8 +18,8 @@ export default function Sponsors() {
       <div className="kicker">Sponsors</div>
       <h1 className="h1">Thank you to our sponsors</h1>
       <p className="sub" style={{ maxWidth: 980 }}>
-        BoilerCube is grateful for the organizations that support student-led climate engineering
-        through funding, mentorship, and technical resources.
+        BoilerCube is grateful for the organizations that support student-led
+        climate engineering through funding, mentorship, and technical resources.
       </p>
 
       {/* ===================== LOGO WALL ===================== */}
@@ -57,18 +52,18 @@ export default function Sponsors() {
           What we can offer sponsors
         </h2>
         <p className="sub" style={{ maxWidth: 980 }}>
-          BoilerCube sponsorship is more than a donation — it is a visible partnership with
-          a student engineering team building real climate hardware.
+          BoilerCube sponsorship is more than a donation — it is a visible
+          partnership with a student engineering team building real climate hardware.
         </p>
 
         <div className="grid" style={{ marginTop: 18 }}>
           <div className="col-6 card">
             <h3 style={{ marginTop: 0 }}>Logo placement & visibility</h3>
             <ul>
-              <li><strong>T-shirts & apparel:</strong> sponsor logos on official team shirts and apparel</li>
-              <li><strong>Cube prototype:</strong> logo placement on the DAC cube enclosure</li>
-              <li><strong>Website recognition:</strong> logo placement on this Sponsors page</li>
-              <li><strong>Posters & outreach:</strong> sponsor logos on demos and presentations</li>
+              <li><strong>T-shirts & apparel:</strong> logos on official team apparel</li>
+              <li><strong>Cube prototype:</strong> logo placement on the DAC cube</li>
+              <li><strong>Website recognition:</strong> logo placement on this page</li>
+              <li><strong>Posters & outreach:</strong> demos and presentations</li>
             </ul>
             <p className="mini" style={{ marginTop: 10 }}>
               Sponsors may also be highlighted during major project milestones.
@@ -78,30 +73,28 @@ export default function Sponsors() {
           <div className="col-6 card">
             <h3 style={{ marginTop: 0 }}>National exposure & recruiting</h3>
             <ul>
-              <li>
-                <strong>AIChE National Conference:</strong> exposure at national chemical engineering events
-              </li>
-              <li>
-                <strong>Chem-E Cube Competition:</strong> recognition tied to competition presentations
-              </li>
-              <li><strong>Recruiting visibility:</strong> engagement with motivated engineering students</li>
+              <li><strong>AIChE National Conference:</strong> national exposure</li>
+              <li><strong>Chem-E Cube Competition:</strong> competition recognition</li>
+              <li><strong>Recruiting visibility:</strong> connect with driven students</li>
             </ul>
             <p className="mini" style={{ marginTop: 10 }}>
-              Ideal for organizations interested in early recruiting visibility.
+              Ideal for organizations seeking early recruiting visibility.
             </p>
           </div>
 
           <div className="col-12 card" style={{ padding: 22 }}>
             <h3 style={{ marginTop: 0 }}>We’ll make it easy</h3>
             <p style={{ margin: 0, maxWidth: 1000, color: "rgba(245,245,247,0.85)" }}>
-              We provide a clear sponsorship packet outlining recognition options, tier examples,
-              and how sponsorship directly supports prototyping, testing, manufacturing,
-              and travel for AIChE and the Chem-E Cube Competition.
+              We provide a clear sponsorship packet outlining recognition options,
+              tier examples, and how sponsorship directly supports prototyping,
+              testing, manufacturing, and travel for AIChE and the Chem-E Cube Competition.
             </p>
 
             <div style={{ marginTop: 18, display: "flex", gap: 14, flexWrap: "wrap" }}>
               <a className="btn sponsor-btn" href="/contact">Request sponsorship packet</a>
-              <a className="btn sponsor-btn" href="/contact" style={{ opacity: 0.9 }}>Contact us</a>
+              <a className="btn sponsor-btn" href="/contact" style={{ opacity: 0.9 }}>
+                Contact us
+              </a>
             </div>
           </div>
         </div>
