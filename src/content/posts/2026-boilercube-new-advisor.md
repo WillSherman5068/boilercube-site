@@ -2,7 +2,7 @@
 title: "BoilerCube Welcomes New Advisor Dr. Gabriella Nagy"
 date: "2025-04-02"
 summary: "BoilerCube is excited to welcome Dr. Gabriella Nagy as a new faculty advisor supporting the team’s technical development and growth."
-image: "advisor.jpg"
+image:
 ---
 
 BoilerCube is excited to welcome **Dr. Gabriella Nagy** as a new faculty advisor to the team.
