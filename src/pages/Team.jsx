@@ -26,7 +26,7 @@ export default function Team() {
         "Jeremy manages budgeting, purchasing, and financial planning so the team can prototype efficiently. He also helps track sponsorship needs and ensures resources go where they matter most.",
     },
     {
-      name: "Jade Croell",
+      name: "Jade Kroell",
       role: "Team Lead",
       group: "Mechanical",
       headshot: "/headshots/jade.png",
@@ -42,7 +42,7 @@ export default function Team() {
         "Leads electronics, wiring, sensors, and power systems. Focuses on reliability, safety, and making the cube’s controls and instrumentation robust for demos and competition.",
     },
     {
-      name: "Evan Lynus",
+      name: "Evan Lyhus",
       role: "Team Lead",
       group: "Chemical",
       headshot: "/headshots/evan.png",
