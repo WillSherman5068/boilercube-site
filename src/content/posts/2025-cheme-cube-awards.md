@@ -1,6 +1,6 @@
 ---
 title: "BoilerCube wins 3rd place overall and Entrepreneurship Award"
-date: "2025-03-15"
+date: "2026-01-10"
 summary: "BoilerCube earned 3rd place overall and the Entrepreneurship Award at the 2025 AIChE Chem-E Cube Competition in Boston."
 image: "competitionwin.jpg"
 ---
