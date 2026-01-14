@@ -2,7 +2,7 @@
 title: "BoilerCube Callout Meeting 1/20/2026"
 date: "2026-01-13"
 summary: "Come learn more about BoilerCube at the callout meeting in FRNY 1043"
-image: "CalloutFlyerSpring 26.jpg"
+image: "Callout Flyer Spring 26.jpg"
 ---
 
 Interested in hands-on engineering, climate tech, or building real hardware?
